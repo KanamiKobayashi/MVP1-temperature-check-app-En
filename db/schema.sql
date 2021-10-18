@@ -1,0 +1,20 @@
+DROP TABLE IF EXISTS user;
+DROP TABLE IF EXISTS results;
+
+CREATE TABLE user (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  username TEXT NOT NULL,
+  password TEXT NOT NULL,
+  role TEXT NOT NULL DEFAULT 'user'
+);
+
+CREATE TABLE results (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  student_name TEXT NOT NULL,
+  temperature TEXT NOT NULL,
+  parent_id INTEGER NOT NULL,
+  input_date DATETIME NOT NULL,
+  modified_by TEXT NOT NULL,
+  check_date TEXT NOT NULL,
+  created DATETIME DEFAULT CURRENT_TIMESTAMP
+)
