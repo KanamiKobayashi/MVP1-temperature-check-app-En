@@ -7,8 +7,11 @@ Due to COVID situation, they must check in all players' temperature for 2 weeks 
 This app users are the parents of players and the coaches working for Japanese cheerleading association.
 
 This is MVP_1 version.
-Please register and try to log in.
-If you log in as "Izumi", password "3333", you can also log in as an admin and be able to visit admin page.
+First you will be logged in as "Izumi" and this is the only admin who is able to visit admin page.
+(pass:3333)
+
+Once you logged out and register yourself, then try to log in. 
+You will be a new user and be able to view only submit page.
 
 demo(English): 
 https://temperaturecheckappmvp1en.herokuapp.com/
