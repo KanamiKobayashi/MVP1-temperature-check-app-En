@@ -7,6 +7,7 @@ Due to COVID situation, they must check in all players' temperature for 2 weeks 
 This app users are the parents of players and the coaches working for Japanese cheerleading association.
 
 This is MVP_1 version.
+
 First you will be logged in as "Izumi" and this is the only admin who is able to visit admin page.
 (pass:3333)
 
