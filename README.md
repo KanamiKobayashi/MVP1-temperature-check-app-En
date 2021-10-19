@@ -8,11 +8,11 @@ This app users are the parents of players and the coaches working for Japanese c
 
 This is MVP_1 version.
 
+
 First you will be logged in as "Izumi" and this is the only admin who is able to visit admin page.
 (pass:3333)
 
-Once you logged out and register yourself, then try to log in. 
-You will be a new user and be able to view only submit page.
+Once you logged out and register yourself, then try to log in. You will be a new user and be able to view only submit page.
 
 demo(English): 
 https://temperaturecheckappmvp1en.herokuapp.com/
